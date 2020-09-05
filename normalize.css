@@ -22,6 +22,11 @@
   color: black;
 }
 
+.wrapper {
+  width: 300px;
+  margin: auto;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -50,6 +55,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 
 h1 {
   font-size: 8em;

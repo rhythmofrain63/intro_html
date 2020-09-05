@@ -8,6 +8,20 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
+.text-centered {
+  text-align: center;
+}
+
+.dark-background {
+  background-color: cornflowerblue;
+  color: beige;
+}
+
+.light-background {
+  background-color: beige;
+  color: black;
+}
+
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -38,7 +52,7 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 8em;
   margin: 0.67em 0;
 }
 

@@ -37,10 +37,7 @@ ol {
     list-style-position: inside;
 }
 
-hr {
-    width:50%;
-    margin:0 auto;
-}
+
 
 html {
   line-height: 1.15; /* 1 */
@@ -73,7 +70,7 @@ main {
 
 
 h1 {
-  font-size: 8em;
+  font-size: 5em;
   margin: 0.67em 0;
   font-family: fantasy;
   font-weight: bold;
@@ -88,9 +85,11 @@ h1 {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+    width:50%;
+    margin:0 auto;
+    /*box-sizing: content-box; /* 1 */
+    /*height: 0; /* 1 */
+    /*overflow: visible; /* 1 */
 }
 
 /**
